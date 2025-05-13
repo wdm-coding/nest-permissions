@@ -1,4 +1,4 @@
-import { ForbiddenException, HttpException, Injectable, UnauthorizedException } from '@nestjs/common'
+import { HttpException, Injectable, UnauthorizedException } from '@nestjs/common'
 import { UserService } from '../user/user.service'
 import { JwtService } from '@nestjs/jwt'
 import * as argon2 from 'argon2'
@@ -24,10 +24,10 @@ export class AuthService {
   // 登录用户信息
   async signIn(username: string, password: string) {
     const user = await this.userService.findOneByName(username)
-    if (!user) throw new ForbiddenException('用户名不存在')
+    if (!user) throw new HttpException('用户名不存在', 200)
     // 用户密码校验
     const isPasswordValid = await argon2.verify(user.password, password)
-    if (!isPasswordValid) throw new UnauthorizedException('用户名或密码错误')
+    if (!isPasswordValid) throw new HttpException('用户名或密码错误', 200)
     // 生成JWT
     const result = await this.jwtService.signAsync({
       username,
