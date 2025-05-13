@@ -7,9 +7,9 @@ export class Profile {
   id: number // 主键id字段
   @Column({ type: 'int' })
   gender: number // 性别字段
-  @Column({ type: 'varchar', length: 11 })
+  @Column({ type: 'varchar', length: 11, nullable: true })
   phone: string // 手机号字段
-  @Column({ type: 'varchar', length: 255 })
+  @Column({ type: 'varchar', length: 255, nullable: true })
   address: string // 地址字段
   // 一对一创建关联关系
   @OneToOne(() => Users, { onDelete: 'CASCADE' }) // 关联到User实体类

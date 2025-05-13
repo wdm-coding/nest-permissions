@@ -9,7 +9,7 @@ export class Menus {
   name: string
   @Column()
   path: string
-  @Column()
+  @Column({ nullable: true })
   icon: string
   @Column()
   order: number

@@ -10,7 +10,7 @@ export class Roles {
   name: string // 角色名称字段
   @Column({ type: 'varchar', length: 255, unique: true })
   code: string // 角色code
-  @Column({ type: 'varchar', length: 255 })
+  @Column({ type: 'varchar', length: 255, nullable: true })
   description: string // 角色描述字段
   @ManyToMany(() => Users, users => users.roles) // 关系装饰器，告诉 TypeORM 这个属性是多对多关系。
   users: Users[] // 用户字段
