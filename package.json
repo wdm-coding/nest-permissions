@@ -21,13 +21,14 @@
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "gen": "typeorm-model-generator -h 127.0.0.1 -d nest-test-db -p 3306 -u root -x 123456 -e mysql -o ./src/entities",
     "typeorm": "typeorm-ts-node-commonjs -d ormconfig.json",
-     "migration:generate": "typeorm-ts-node-commonjs migration:generate ./src/migrations/$npm_config_name -d src/data-source.ts",
+    "migration:generate": "typeorm-ts-node-commonjs migration:generate ./src/migrations/$npm_config_name -d src/data-source.ts",
     "migration:create": "typeorm-ts-node-commonjs migration:create",
     "migration:run": "npm run typeorm migration:run",
     "migration:revert": "npm run typeorm migration:revert",
     "schema:drop": "npm run typeorm schema:drop"
   },
   "dependencies": {
+    "@casl/ability": "^6.7.3",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.1",
     "@nestjs/core": "^11.0.1",
