@@ -16,15 +16,20 @@ import { TypeormDecorator } from '../decotator/typeorm.decotator'
 import { JwtGuard } from '../guards/jwt.guard'
 import { ResponseInterceptor } from '../interceptors/response.interceptor'
 import { SerializeInterceptor } from '../interceptors/serialize.interceptor'
+import { Roles } from '../decotator/role.decorator'
+import { Role } from '../enum/role.enum'
+import { RoleGuard } from '../guards/role.guard'
 
 @Controller('menus')
 @TypeormDecorator()
-@UseGuards(JwtGuard)
 @UseInterceptors(new ResponseInterceptor())
+@Roles(Role.ADMIN)
+@UseGuards(JwtGuard, RoleGuard)
 export class MenusController {
   constructor(private readonly menusService: MenusService) {}
   // 查询所有菜单列表
   @Get('list')
+  @Roles(Role.USER)
   findAll() {
     return this.menusService.findAll()
   }
