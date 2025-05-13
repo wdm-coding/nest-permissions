@@ -1,0 +1,785 @@
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:13.482Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.486Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:13.487Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.488Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.489Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.490Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.490Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.491Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.492Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:13.492Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.493Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.494Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.494Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.495Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:13.495Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.496Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:13.496Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:02:13.499Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:44.147Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.153Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:44.153Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.154Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.156Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.157Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.158Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.159Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.159Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:44.160Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.161Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.162Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.163Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.164Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:44.164Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.166Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:44.166Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:02:44.169Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:49.875Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.879Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:49.880Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.881Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.882Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.883Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.883Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.884Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.885Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:49.885Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.886Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.887Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.887Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.888Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:02:49.888Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.888Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:02:49.889Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:02:49.891Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:04:07.462Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.467Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:04:07.467Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.468Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.470Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.471Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.471Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.472Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.473Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:04:07.474Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.475Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.476Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.477Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.478Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:04:07.478Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.479Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:04:07.479Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:04:07.482Z"}
+error: 捕获异常:  {"stack":[{"body":{"password":"admin","username":"admin"},"error":{"error":"Bad Request","message":["用户名长度必须在6到20之间","密码长度必须在6到20之间"],"statusCode":400},"exception":"BadRequestException","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","cache-control":"no-cache","connection":"close","content-length":"39","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/login","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Bad Request Exception","status":400,"timestamp":"2025-05-06T08:04:47.027Z"}],"timestamp":"2025-05-06T08:04:47.031Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:34.269Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.275Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:34.275Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.276Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.277Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.278Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.279Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.280Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.281Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:34.281Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.282Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.283Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.284Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.285Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:34.285Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.286Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:34.287Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:05:34.289Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:36.715Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.719Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:36.720Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.721Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.723Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.724Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.725Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.726Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.727Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:36.728Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.729Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.730Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.731Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.732Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:05:36.732Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.733Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:05:36.733Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:05:36.736Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:07.272Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.277Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:07.277Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.278Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.279Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.281Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.282Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.283Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.283Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:07.284Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.285Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.286Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.287Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.287Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:07.288Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.288Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:07.288Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:06:07.291Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:43.422Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.426Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:43.426Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.427Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.428Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.429Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.429Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.430Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.431Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:43.431Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.432Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.432Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.433Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.434Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:06:43.434Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.434Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:06:43.435Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:06:43.437Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"1111","gender":1,"password":"11111","phone":"1111","roleIds":"2","username":"test111"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"98","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:07:21.872Z"}],"timestamp":"2025-05-06T08:07:21.876Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:19.027Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.031Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:19.032Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.032Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.033Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.034Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.035Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.035Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.036Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:19.036Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.037Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.037Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.038Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.038Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:19.039Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.039Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:19.039Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:09:19.042Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"1111","gender":1,"password":"11111","phone":"1111","roleIds":"2","username":"test111"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"98","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:09:20.283Z"}],"timestamp":"2025-05-06T08:09:20.286Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:44.472Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.477Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:44.478Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.479Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.480Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.481Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.481Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.482Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.483Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:44.483Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.484Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.485Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.485Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.486Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:09:44.486Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.487Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:09:44.487Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:09:44.490Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"1111","gender":1,"password":"11111","phone":"1111","roleIds":"2","username":"test111"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"98","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:09:47.053Z"}],"timestamp":"2025-05-06T08:09:47.057Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:07.292Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.299Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:07.299Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.301Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.303Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.304Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.305Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.306Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.307Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:07.307Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.308Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.309Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.310Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.310Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:07.311Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.311Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:07.312Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:10:07.315Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"1111","gender":1,"password":"11111","phone":"1111","roleIds":"2","username":"test111"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"98","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:10:09.134Z"}],"timestamp":"2025-05-06T08:10:09.137Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:34.402Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.406Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:34.407Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.408Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.409Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.409Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.410Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.411Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.411Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:34.412Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.412Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.413Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.414Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.414Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:10:34.414Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.415Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:10:34.415Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:10:34.417Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"1111","gender":1,"password":"11111","phone":"1111","roleIds":"2","username":"test111"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"98","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:10:36.425Z"}],"timestamp":"2025-05-06T08:10:36.430Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:05.217Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.224Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:05.225Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.227Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.228Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.230Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.231Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.232Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.233Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:05.234Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.235Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.236Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.237Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.239Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:05.239Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.240Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:05.241Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:11:05.245Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"1111","gender":1,"password":"11111","phone":"1111","roleIds":"2","username":"test111"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"98","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:11:08.114Z"}],"timestamp":"2025-05-06T08:11:08.117Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:46.852Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.856Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:46.857Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.857Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.858Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.859Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.860Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.860Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.861Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:46.861Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.862Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.863Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.863Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.864Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:11:46.864Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.864Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:11:46.865Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:11:46.867Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:13:27.859Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.864Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:13:27.865Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.866Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.867Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.868Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.869Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.870Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.871Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:13:27.871Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.872Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.873Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.874Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.875Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:13:27.875Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.876Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:13:27.877Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:13:27.879Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:11.812Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.817Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:11.817Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.818Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.819Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.820Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.821Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.822Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.822Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:11.823Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.824Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.825Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.825Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.826Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:11.826Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.827Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:11.827Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:14:11.830Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:53.752Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.757Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:53.758Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.759Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.760Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.761Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.762Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.762Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.763Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:53.764Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.764Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.765Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.766Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.767Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:14:53.767Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.768Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:14:53.768Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:14:53.771Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:18:36.441Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.446Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:18:36.446Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.447Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.449Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.450Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.450Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.451Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.452Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:18:36.452Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.453Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.454Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.455Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.456Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:18:36.456Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.457Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:18:36.457Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:18:36.460Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:19:54.094Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.098Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:19:54.098Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.099Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.100Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.101Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.102Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.102Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.103Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:19:54.104Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.104Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.105Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.106Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.107Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:19:54.107Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.108Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:19:54.108Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:19:54.111Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:20:51.904Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.909Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:20:51.910Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.911Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.912Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.913Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.914Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.915Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.916Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:20:51.917Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.918Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.919Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.920Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.922Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:20:51.922Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.923Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:20:51.924Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:20:51.926Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:15.981Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.986Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:15.987Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.988Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.989Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.990Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.991Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.992Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.993Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:15.993Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.994Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.996Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.997Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.997Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:15.998Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.998Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:15.999Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:21:16.002Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:25.639Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.644Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:25.644Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.645Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.646Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.647Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.648Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.649Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.649Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:25.650Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.651Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.652Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.653Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.654Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:25.654Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.655Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:25.655Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:21:25.658Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:40.719Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.723Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:40.723Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.724Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.725Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.726Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.727Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.728Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.728Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:40.729Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.730Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.731Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.731Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.732Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:21:40.732Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.733Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:21:40.733Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:21:40.736Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:04.459Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.463Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:04.464Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.465Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.466Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.467Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.468Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.468Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.469Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:04.469Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.470Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.471Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.472Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.472Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:04.473Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.473Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:04.474Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:22:04.476Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:49.109Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.116Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:49.117Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.118Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.119Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.120Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.121Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.121Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.122Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:49.123Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.124Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.125Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.126Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.126Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:22:49.127Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.127Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:22:49.128Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:22:49.131Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:01.085Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.089Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:01.090Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.091Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.092Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.094Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.095Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.096Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.096Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:01.097Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.098Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.099Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.100Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.101Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:01.101Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.102Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:01.103Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:24:01.106Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:16.821Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.825Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:16.826Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.827Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.828Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.829Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.830Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.830Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.831Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:16.832Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.832Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.833Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.834Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.834Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:24:16.835Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.835Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:24:16.836Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:24:16.839Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:25:00.332Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.337Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:25:00.337Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.338Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.339Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.340Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.341Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.342Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.343Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:25:00.343Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.344Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.345Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.346Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.347Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:25:00.347Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.348Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:25:00.348Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:25:00.351Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"2121","gender":1,"password":"121212","phone":"212","roleIds":"2,1","username":"wqeqeqe"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"100","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:25:11.945Z"}],"timestamp":"2025-05-06T08:25:11.948Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:28:37.755Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.760Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:28:37.760Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.761Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.762Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.763Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.764Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.765Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.766Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:28:37.766Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.767Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.768Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.769Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.769Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:28:37.770Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.770Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:28:37.771Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:28:37.773Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"2121","gender":1,"password":"121212","phone":"212","roleIds":"2,1","username":"wqeqeqe"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"100","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:28:40.963Z"}],"timestamp":"2025-05-06T08:28:40.965Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:29:56.325Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.332Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:29:56.333Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.334Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.336Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.337Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.338Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.339Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.340Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:29:56.341Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.342Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.343Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.344Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.345Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:29:56.346Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.347Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:29:56.347Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:29:56.350Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"2121","gender":1,"password":"121212","phone":"212","roleIds":"2,1","username":"wqeqeqe"},"error":"未知错误","exception":"TypeError","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"100","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Cannot read properties of undefined (reading 'split')","status":500,"timestamp":"2025-05-06T08:29:59.205Z"}],"timestamp":"2025-05-06T08:29:59.208Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:09.303Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.307Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:09.308Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.309Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.310Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.311Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.311Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.312Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.313Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:09.313Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.314Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.315Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.316Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.316Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:09.317Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.317Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:09.318Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:31:09.320Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:11.784Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.788Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:11.789Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.790Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.791Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.791Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.792Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.793Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.794Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:11.794Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.795Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.796Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.796Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.797Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:31:11.797Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.798Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:31:11.798Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:31:11.801Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:19.211Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.215Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:19.216Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.217Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.218Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.219Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.220Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.220Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.221Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:19.222Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.223Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.223Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.224Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.225Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:19.225Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.226Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:19.226Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:33:19.229Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:21.788Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.792Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:21.793Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.794Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.795Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.796Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.797Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.797Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.798Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:21.799Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.799Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.800Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.801Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.802Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:33:21.802Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.803Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:33:21.803Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:33:21.806Z"}
+error: 捕获异常:  {"stack":[{"body":{"address":"12","gender":1,"password":"121212","phone":"12212","roleIds":"1,2","username":"aqewqw"},"error":{"error":"Bad Request","message":["phone must be a valid phone number"],"statusCode":400},"exception":"BadRequestException","headers":{"accept":"application/json, text/plain, */*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"zh-CN,zh;q=0.9","authorization":"Bearer Token-admin","cache-control":"no-cache","connection":"close","content-length":"99","content-type":"application/json;charset=UTF-8","cookie":"adminer_permanent=; adminer_settings=vendor-server-db%3DMySQL%26vendor-db%3DMySQL; userId=625; Hm_lvt_e8002ef3d9e0d8274b5b74cc4a027d08=1745974749,1746148861; sl-session=I1GOK5atGmjRC9gEj0jktg==","host":"localhost:3000","origin":"http://localhost:9001","pragma":"no-cache","referer":"http://localhost:9001/users","sec-ch-ua":"\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"},"ip":"::1","message":"Bad Request Exception","status":400,"timestamp":"2025-05-06T08:33:28.494Z"}],"timestamp":"2025-05-06T08:33:28.498Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:28.257Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.263Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:28.264Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.265Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.266Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.267Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.268Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.269Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.270Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:28.270Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.271Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.272Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.273Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.274Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:28.274Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.275Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:28.275Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:34:28.278Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:32.553Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.557Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:32.557Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.558Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.559Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.560Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.561Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.561Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.562Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:32.563Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.564Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.565Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.565Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.566Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:34:32.566Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.567Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:34:32.567Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:34:32.570Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:47:38.077Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.082Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:47:38.083Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.084Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.085Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.086Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.087Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.088Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.089Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:47:38.089Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.090Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.091Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.092Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.092Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:47:38.093Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.093Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:47:38.094Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:47:38.099Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:18.186Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.190Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:18.191Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.192Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.193Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.194Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.195Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.196Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.197Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:18.197Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.198Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.199Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.200Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.200Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:18.201Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.201Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:18.202Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:53:18.205Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:31.666Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.670Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:31.671Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.672Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.673Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.674Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.674Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.675Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.676Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:31.676Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.677Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.678Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.678Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.679Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:53:31.679Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.680Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:53:31.680Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:53:31.683Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:54:22.146Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.150Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:54:22.151Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.152Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.153Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.154Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.155Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.156Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.156Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:54:22.157Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.158Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.159Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.159Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.160Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:54:22.160Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.161Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:54:22.161Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:54:22.164Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:55:40.471Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.476Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:55:40.476Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.477Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.478Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.479Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.480Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.481Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.481Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:55:40.482Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.483Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.484Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.484Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.485Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:55:40.485Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.486Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:55:40.487Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:55:40.489Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:57:18.330Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.334Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:57:18.335Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.336Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.337Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.338Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.338Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.339Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.340Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:57:18.340Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.341Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.342Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.343Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.343Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:57:18.344Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.344Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:57:18.345Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:57:18.347Z"}
+info: LogsController {/api/logs}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:59:50.190Z"}
+info: Mapped {/api/logs/logsByGroup/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.195Z"}
+info: UserController {/api/user}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:59:50.196Z"}
+info: Mapped {/api/user/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.197Z"}
+info: Mapped {/api/user/getUserById/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.198Z"}
+info: Mapped {/api/user/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.199Z"}
+info: Mapped {/api/user/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.200Z"}
+info: Mapped {/api/user/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.201Z"}
+info: Mapped {/api/user/profile/:id, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.202Z"}
+info: RolesController {/api/roles}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:59:50.202Z"}
+info: Mapped {/api/roles/list, GET} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.203Z"}
+info: Mapped {/api/roles/add, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.204Z"}
+info: Mapped {/api/roles/delete/:id, DELETE} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.205Z"}
+info: Mapped {/api/roles/edit/:id, PATCH} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.205Z"}
+info: AuthController {/api/auth}: {"context":"RoutesResolver","timestamp":"2025-05-06T08:59:50.206Z"}
+info: Mapped {/api/auth/signin, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.206Z"}
+info: Mapped {/api/auth/signup, POST} route {"context":"RouterExplorer","timestamp":"2025-05-06T08:59:50.207Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2025-05-06T08:59:50.210Z"}
