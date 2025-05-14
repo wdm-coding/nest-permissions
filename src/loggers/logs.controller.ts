@@ -11,7 +11,7 @@ import { CaslGuard } from '../guards/casl-ability.guard'
 @TypeormDecorator()
 @UseInterceptors(new ResponseInterceptor())
 @UseGuards(JwtGuard, CaslGuard)
-@CheckPolices(ability => ability.can(Action.Read, Logs))
+@CheckPolices(ability => ability.can(Action.Read, Logs), ability => ability.can(Action.Delete, Logs))
 @Can(Action.Read, Logs)
 export class LogsController {
   constructor(private logsService: LogsService) {}
