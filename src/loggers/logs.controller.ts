@@ -6,17 +6,17 @@ import { JwtGuard } from '../guards/jwt.guard'
 import { Can, CheckPolices } from '../decotator/casl.decorator'
 import { Logs } from '../entities/logs/logs.entity'
 import { Action } from '../enum/action.enum'
-import { CaslAbilityGuard } from 'src/guards/casl-ability.guard'
+import { CaslGuard } from '../guards/casl-ability.guard'
 @Controller('logs')
 @TypeormDecorator()
 @UseInterceptors(new ResponseInterceptor())
-@UseGuards(CaslAbilityGuard, JwtGuard)
+@UseGuards(JwtGuard, CaslGuard)
 @CheckPolices(ability => ability.can(Action.Read, Logs))
+@Can(Action.Read, Logs)
 export class LogsController {
   constructor(private logsService: LogsService) {}
   // 日志高级查询
   @Get('list')
-  @Can(Action.Update, Logs)
   findAll() {
     return this.logsService.findAll()
   }

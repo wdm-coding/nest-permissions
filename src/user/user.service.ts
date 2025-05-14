@@ -57,10 +57,7 @@ export class UserService {
   findOneByName(username: string) {
     return this.userRepository.findOne({
       where: { username },
-      relations: {
-        profile: true,
-        roles: true
-      }
+      relations: ['roles', 'roles.menus']
     })
   }
   // 创建用户信息
