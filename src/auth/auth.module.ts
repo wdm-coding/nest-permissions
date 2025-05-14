@@ -26,7 +26,7 @@ import { CaslAbilityService } from './casl-ability.service'
       inject: [ConfigService] // 注入配置服务
     })
   ],
-  providers: [AuthService, JwtStrategy, CaslAbilityService], // 注入策略服务
+  providers: [AuthService, JwtStrategy, CaslAbilityService], // 提供服务
   controllers: [AuthController],
   exports: [CaslAbilityService]
 })

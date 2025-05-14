@@ -12,6 +12,7 @@ export class CaslAbilityGuard implements CanActivate {
   ) {}
 
   canActivate(context: ExecutionContext): boolean | Promise<boolean> {
+    // 获取当前用户的能力
     const handlers = this.reflector.getAllAndMerge<any[]>(CHECK_POLICIES_KEY.HANDLER, [
       context.getHandler(),
       context.getClass()
@@ -24,6 +25,18 @@ export class CaslAbilityGuard implements CanActivate {
       context.getHandler(),
       context.getClass()
     ])
-    return true
+
+    const ability = this.caslAbilityService.forRoot()
+    let flag = true
+    if (handlers) {
+      flag = flag && handlers.every(handler => handler(ability))
+    }
+    if (canhandlers) {
+      flag = flag && canhandlers.every(handler => handler(ability))
+    }
+    if (cannothandlers) {
+      flag = flag && cannothandlers.some(handler => !handler(ability))
+    }
+    return flag
   }
 }

@@ -1,20 +1,17 @@
-import { Controller, Get } from '@nestjs/common'
+import { Controller, Get, UseGuards, UseInterceptors } from '@nestjs/common'
 import { LogsService } from './logs.service'
+import { TypeormDecorator } from '../decotator/typeorm.decotator'
+import { ResponseInterceptor } from '../interceptors/response.interceptor'
+import { JwtGuard } from '../guards/jwt.guard'
 @Controller('logs')
+@TypeormDecorator()
+@UseInterceptors(new ResponseInterceptor())
+@UseGuards(JwtGuard)
 export class LogsController {
   constructor(private logsService: LogsService) {}
   // 日志高级查询
-  @Get('logsByGroup/:id')
-  async getLogsByGroup(): Promise<any> {
-    const data = await this.logsService.findLogsByGroup(1)
-    return {
-      code: 0,
-      msg: 'success',
-      data: data.map(item => ({
-        user_id: item.user_id,
-        result: item.result,
-        count: item.count
-      }))
-    }
+  @Get('list')
+  findAll() {
+    return this.logsService.findAll()
   }
 }
