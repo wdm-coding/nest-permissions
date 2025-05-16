@@ -13,10 +13,8 @@ function getEnv(env: string): Record<string, unknown> {
   // 如果文件不存在，返回一个空对象
   return {}
 }
-
 // 2. 批量导入entities实体文件
 const entitiesDir = [__dirname + '/src/entities/**/*.entity{.ts,.js}']
-
 // 3. 通过dotENV来解析不同的配置文件
 function buildConnectionOptions() {
   const defaultConfig = getEnv(`.env`) // 从默认环境配置文件读取配置
@@ -34,7 +32,6 @@ function buildConnectionOptions() {
     logging: false // 是否记录日志
   } as TypeOrmModuleOptions
 }
-
 // 3. 导出配置文件
 export const typeOrmConfig = buildConnectionOptions()
 // 4. 导出数据源配置文件
