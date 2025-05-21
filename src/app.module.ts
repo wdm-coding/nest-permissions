@@ -7,6 +7,8 @@ import { typeOrmConfig } from '../ormconfig'
 import { AuthModule } from './auth/auth.module'
 import { RolesModule } from './roles/roles.module'
 import { MenusModule } from './menus/menus.module'
+import { SseService } from './sse/sse.service'
+import { SseModule } from './sse/sse.module'
 import validationSchema from './config/joi.config'
 @Global() // 全局注册APP模块
 @Module({
@@ -25,10 +27,11 @@ import validationSchema from './config/joi.config'
     UserModule,
     RolesModule,
     AuthModule,
-    MenusModule
+    MenusModule,
+    SseModule
   ],
   controllers: [],
-  providers: [Logger],
+  providers: [Logger, SseService],
   exports: [Logger]
 })
 export class AppModule {}
